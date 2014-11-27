@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/startGame"
+        android:title="@string/main_menu_startGame">
+    </item>
+    <item
+        android:id="@+id/engineValues"
+        android:title="@string/main_menu_engine_values">
+    </item>
+    <item
+        android:id="@+id/lastMoveExecData"
+        android:title="@string/main_menu_lastMoveExecutionData">
+    </item>
+    <item
+        android:id="@+id/help"
+        android:title="@string/main_menu_help">
+    </item>
+ </menu>

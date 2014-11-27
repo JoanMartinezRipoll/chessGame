@@ -1,7 +1,7 @@
 chessGame
 =========
 
-##WHAT THIS PROJECT IS:
+##PROJECT DESCRIPTION:
 This chess game enhances the open source project pocket-chess-for-android (https://code.google.com/p/pocket-chess-for-android/) by adding an offloading engine that decides wether it is faster and less enery consuming for the AI to execute the code to decide the next move localy on the Android device or remotely on a server. 
 
 To perform this task, the code to decide the next move is copied both in the mobile device and in a server. This way, in case it is decided to offload, the required input parameters and data are sent (through 3G or Wi-Fi, LTE or whichever connection the mobile device has) to a server, causing the smart-phone to wait for the subsequent response.
